@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <br>
+            <img src="googlelogo_color_272x92dp.png" alt="Google logo" width="90">
+            <div class="links">
+                <a href="index.html">Google Search</a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="form_advanced">
+                <h5 id="advanced">Advanced Search</h5>
+                <br>
+                <hr style="height:3px;border-width:0;color:gray;background-color:gray">
+                <h6>Find pages with...</h6>
+                <br>
+                <form action="https://google.com/search">
+                    <div class="row mb-3">
+                        <label for="allthese" class="col-sm-2 col-form-label">all these words:</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="as_q" class="form-control" id="allthese" autocomplete="off" autofocus>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="exact" class="col-sm-2 col-form-label">this exact word of phrase</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="as_epq" class="form-control" id="exact" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="any" class="col-sm-2 col-form-label">any of these words</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="as_oq" class="form-control" id="any" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="noneof" class="col-sm-2 col-form-label">none of these words</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="as_eq" class="form-control" id="noneof" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary float-end" value="Advanced Search">Advanced Search</button>
+                    </div>
+                    </form>
+            </div>
+        </div>
+    </body>
+</html>
